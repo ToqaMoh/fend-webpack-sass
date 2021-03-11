@@ -4,4 +4,14 @@ let json = {
     'time': 'now'
 }
 
-module.exports = json
+
+let Newjson = {
+    'title': 'new json response',
+    'message': 'this is a NEW message',
+    'time': 'now now'
+}
+
+module.exports = {
+    json,
+    Newjson
+}
